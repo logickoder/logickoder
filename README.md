@@ -1,6 +1,5 @@
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=D2691E&center=true&vCenter=true&width=600&lines=Senior+Mobile+Engineer;Android+%C2%B7+KMM+%C2%B7+Flutter+%C2%B7+React;6%2B+Years+Shipping+Mobile+Infrastructure;Maintainer+of+Retrostash+%E2%80%94+Maven+Central" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=D2691E&center=true&vCenter=true&width=620&lines=Senior+Mobile+Engineer;Android+%C2%B7+KMM+%C2%B7+Flutter+%C2%B7+React;6%2B+Years+Shipping+Mobile+Infrastructure;Maintainer+of+Retrostash+%E2%80%94+Maven+Central;Building+OSS+in+Kotlin%2C+TypeScript%2C+Python" alt="Typing SVG" />
 </div>
 
 <h1 align="center">Hey, I'm Jeffery Orazulike 👋</h1>
@@ -67,7 +66,7 @@
 
 ## 🚀 What I Do
 
-Mobile native (Kotlin / Jetpack Compose) is the home base. Kotlin Multiplatform, Compose Multiplatform, Flutter, and React Native come along when the job needs them. Bench depth in React / Next.js and Node / AWS Lambda tooling.
+Mobile native (Kotlin / Jetpack Compose) is the home base. Day-to-day I also ship in **TypeScript** and **Python** — open-source GitHub Actions, low-latency Node / AWS Lambda services, React / Next.js dashboards, data tooling. Kotlin Multiplatform, Compose Multiplatform, Flutter, and React Native come along when the job needs them.
 
 **Currently shipping at WebMD / Medscape (via Tight Line)** — migrating legacy WebViews into native Compose on a strict MVI architecture. Maintaining **Retrostash** on Maven Central. Building **Knock** (KMP calendar alarm) and **Nag** (KMP persistent reminder) on the side.
 
