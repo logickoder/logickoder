@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=D2691E&center=true&vCenter=true&width=620&lines=Senior+Mobile+Engineer;Android+%C2%B7+KMM+%C2%B7+Flutter+%C2%B7+React;6%2B+Years+Shipping+Mobile+Infrastructure;Maintainer+of+Retrostash+%E2%80%94+Maven+Central;Building+OSS+in+Kotlin%2C+TypeScript%2C+Python" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=D2691E&center=true&vCenter=true&width=620&lines=Senior+Mobile+Engineer;Android+%C2%B7+KMM+%C2%B7+Flutter+%C2%B7+React;6%2B+Years+Shipping+Mobile+Infrastructure;Maintainer+of+Retrostash+on+Maven+Central;Building+OSS+in+Kotlin%2C+TypeScript%2C+Python" alt="Typing SVG" />
 </div>
 
 <h1 align="center">Hey, I'm Jeffery Orazulike 👋</h1>
 
 <p align="center">
-  <strong>Senior Mobile Engineer</strong> — Android · Kotlin Multiplatform · Flutter · React<br/>
+  <strong>Senior Mobile Engineer</strong> · Android · Kotlin Multiplatform · Flutter · React<br/>
   I ship infrastructure people don't notice until it breaks · 6+ years · Open-source on Maven Central
 </p>
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 🛠️ Open Source — on this profile
+## 🛠️ Open Source · on this profile
 
 > **The work lives here.** Most of what I'm proud of is one click away.
 
@@ -62,13 +62,15 @@
   </tr>
 </table>
 
+> **Tell me what breaks.** Open issues, PRs, or DMs welcome.
+
 ---
 
 ## 🚀 What I Do
 
-Mobile native (Kotlin / Jetpack Compose) is the home base. Day-to-day I also ship in **TypeScript** and **Python** — open-source GitHub Actions, low-latency Node / AWS Lambda services, React / Next.js dashboards, data tooling. Kotlin Multiplatform, Compose Multiplatform, Flutter, and React Native come along when the job needs them.
+Mobile native (Kotlin / Jetpack Compose) is the home base. Day-to-day I also ship in **TypeScript** and **Python**: open-source GitHub Actions, low-latency Node / AWS Lambda services, React / Next.js dashboards, data tooling. Kotlin Multiplatform, Compose Multiplatform, Flutter, and React Native come along when the job needs them.
 
-**Currently shipping at WebMD / Medscape (via Tight Line)** — migrating legacy WebViews into native Compose on a strict MVI architecture. Maintaining **Retrostash** on Maven Central. Building **Knock** (KMP calendar alarm) and **Nag** (KMP persistent reminder) on the side.
+**Currently shipping at WebMD / Medscape (via Tight Line).** Migrating legacy WebViews into native Compose on a strict MVI architecture. Maintaining **Retrostash** on Maven Central. Building **Knock** (KMP calendar alarm) and **Nag** (KMP persistent reminder) on the side.
 
 ---
 
@@ -134,7 +136,7 @@ Mobile native (Kotlin / Jetpack Compose) is the home base. Day-to-day I also shi
 val currentFocus = mapOf(
     "Kotlin Multiplatform"    to "Shared business logic + native-feel UI across Android, iOS, JVM, wasm",
     "Compose Multiplatform"   to "One Compose codebase, multiple targets, no compromises",
-    "Low-latency Lambdas"     to "Sub-millisecond Node.js on AWS — spin-locks, TCP_NODELAY, HTTP/2 multiplex",
+    "Low-latency Lambdas"     to "Sub-millisecond Node.js on AWS: spin-locks, TCP_NODELAY, HTTP/2 multiplex",
     "On-device LLMs"          to "Gemma 4 E2B + LiteRT-LM for Android RAG pipelines",
     "Open-source infra"       to "Annotation-driven libraries that solve problems people kept hand-rolling"
 )
@@ -147,7 +149,7 @@ val currentFocus = mapOf(
 I'm open to discussing:
 - 💼 Senior mobile engineering roles (USD / EUR / GBP / CAD remote)
 - 🤝 Open-source collaboration on KMP / Compose libraries
-- 🧱 Mobile architecture — KMP rollouts, MVI, build infrastructure
+- 🧱 Mobile architecture: KMP rollouts, MVI, build infrastructure
 - 🎯 Healthcare, fintech, dev-tools, logistics
 
 **Reach out:**
@@ -164,7 +166,7 @@ I'm open to discussing:
 </p>
 
 <p align="center">
-  <i>"The name logickoder comes from my love of solving logical problems through code."</i>
+  <i>"The handle logickoder comes from solving logical problems through code."</i>
 </p>
 
 <p align="center">
