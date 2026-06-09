@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=D2691E&center=true&vCenter=true&width=620&lines=Senior+Mobile+Engineer;Android+%C2%B7+KMM+%C2%B7+Flutter+%C2%B7+React;6%2B+Years+Shipping+Mobile+Infrastructure;Maintainer+of+Retrostash+on+Maven+Central;Building+OSS+in+Kotlin%2C+TypeScript%2C+Python" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=D2691E&center=true&vCenter=true&width=760&lines=Senior+Mobile+Engineer;Android+%C2%B7+KMM+%C2%B7+Flutter+%C2%B7+React;6%2B+Years+Shipping+Mobile+Infrastructure;Maintainer+of+Retrostash+on+Maven+Central;Building+OSS+in+Kotlin%2C+TypeScript%2C+Python" alt="Typing SVG" />
 </div>
 
 <h1 align="center">Hey, I'm Jeffery Orazulike 👋</h1>
