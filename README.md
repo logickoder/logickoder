@@ -25,6 +25,26 @@
 <table>
   <tr>
     <td width="50%">
+      <h3>☁️ bankstract-cloud</h3>
+      <p><strong>Hosted statement parsing API built on bankstract.</strong> Self-host with docker compose or use the managed API. No Plaid-equivalent existed in Nigeria, so I built one.</p>
+      <p>
+        <a href="https://github.com/logickoder/bankstract-cloud"><img src="https://img.shields.io/badge/Repo-D2691E?style=flat-square&logo=github&logoColor=white" /></a>
+        <a href="https://bankstract.logickoder.dev"><img src="https://img.shields.io/badge/Live-D2691E?style=flat-square&logo=vercel&logoColor=white" /></a>
+        <img src="https://img.shields.io/badge/AGPL--3.0-D2691E?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3>🏦 bankstract</h3>
+      <p><strong>PDF bank statement parser for Nigerian banks.</strong> FBN, Opay, PalmPay, Zenith, more coming. Typed parser errors, redaction built in, no data written to disk.</p>
+      <p>
+        <a href="https://github.com/logickoder/bankstract"><img src="https://img.shields.io/badge/Repo-D2691E?style=flat-square&logo=github&logoColor=white" /></a>
+        <img src="https://img.shields.io/pypi/v/bankstract?style=flat-square&color=D2691E&label=pypi" />
+        <img src="https://img.shields.io/badge/MIT-D2691E?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3>🟧 Retrostash</h3>
       <p><strong>Annotation-driven KMP caching for Retrofit, OkHttp, and Ktor.</strong> Solves POST-query caching (GraphQL, search) and mutation-driven invalidation that stock OkHttp can't.</p>
       <p>
@@ -70,7 +90,7 @@
 
 Mobile native (Kotlin / Jetpack Compose) is the home base. Day-to-day I also ship in **TypeScript** and **Python**: open-source GitHub Actions, low-latency Node / AWS Lambda services, React / Next.js dashboards, data tooling. Kotlin Multiplatform, Compose Multiplatform, Flutter, and React Native come along when the job needs them.
 
-**Currently shipping at WebMD / Medscape (via Tight Line).** Migrating legacy WebViews into native Compose on a strict MVI architecture. Maintaining **Retrostash** on Maven Central. Building **Knock** (KMP calendar alarm) and **Nag** (KMP persistent reminder) on the side.
+**Currently shipping at WebMD / Medscape.** Migrating legacy WebViews into native Compose on a strict MVI architecture. Maintaining **Retrostash** on Maven Central. Shipped **bankstract** and **bankstract-cloud**, an open-source statement parsing engine plus hosted API for Nigerian banks. Nobody asked. No Nigerian Plaid existed, so I built one. Building **Knock** (KMP calendar alarm) and **Nag** (KMP persistent reminder) on the side.
 
 ---
 
