@@ -90,7 +90,7 @@
 
 Mobile native (Kotlin / Jetpack Compose) is the home base. Day-to-day I also ship in **TypeScript** and **Python**: open-source GitHub Actions, low-latency Node / AWS Lambda services, React / Next.js dashboards, data tooling. Kotlin Multiplatform, Compose Multiplatform, Flutter, and React Native come along when the job needs them.
 
-**Currently shipping at WebMD / Medscape.** Migrating legacy WebViews into native Compose on a strict MVI architecture. Maintaining **Retrostash** on Maven Central. Shipped **bankstract** and **bankstract-cloud**, an open-source statement parsing engine plus hosted API for Nigerian banks. Nobody asked. No Nigerian Plaid existed, so I built one. Building **Knock** (KMP calendar alarm) and **Nag** (KMP persistent reminder) on the side.
+**Currently shipping at Grimaldi Group and Product Studio (VFD Group).** A 6-app terminal-operations stack in Kotlin and Compose Multiplatform, and an Android point-of-sale app on banking-as-a-service infrastructure. Before that, migrated WebMD / Medscape's legacy WebViews into native Compose on a strict MVI architecture. Maintaining **Retrostash** on Maven Central. Shipped **bankstract** and **bankstract-cloud**, an open-source statement parsing engine plus hosted API for Nigerian banks. Nobody asked. No Nigerian Plaid existed, so I built one. Building **Knock** (KMP calendar alarm) and **Nag** (KMP persistent reminder) on the side.
 
 ---
 
@@ -124,6 +124,8 @@ Mobile native (Kotlin / Jetpack Compose) is the home base. Day-to-day I also shi
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![C#/.NET](https://img.shields.io/badge/C%23_.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ### Data
 ![Room](https://img.shields.io/badge/Room-4285F4?style=for-the-badge&logo=android&logoColor=white)
@@ -134,19 +136,6 @@ Mobile native (Kotlin / Jetpack Compose) is the home base. Day-to-day I also shi
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Xcode Cloud](https://img.shields.io/badge/Xcode_Cloud-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
-
----
-
-## 📈 GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=logickoder&show_icons=true&hide_border=true&count_private=true&title_color=D2691E&icon_color=D2691E&text_color=ffffff&bg_color=0d1117" alt="GitHub Stats" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=logickoder&hide_border=true&background=0d1117&stroke=D2691E&ring=D2691E&fire=D2691E&currStreakLabel=D2691E&sideLabels=ffffff&dates=ffffff" alt="GitHub Streak" height="180" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=logickoder&hide_border=true&layout=compact&langs_count=8&title_color=D2691E&text_color=ffffff&bg_color=0d1117" alt="Top Languages" />
-</p>
 
 ---
 
