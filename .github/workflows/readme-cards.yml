@@ -12,7 +12,8 @@ jobs:
   cards:
     runs-on: ubuntu-latest
     env:
-      # STATS_TOKEN: classic PAT (repo, read:user) so private repos count; repo names never show on the cards.
+      # STATS_TOKEN: PAT so private repos count; repo names never show on the cards. The stats action is
+      # pinned to a commit because it receives this token: a moved tag could not swap in new code.
       # Top langs: card_width=395 gives it the stats card's 467x195 shape so the two line up; weighted by
       # repo count, not bytes, so a few large web repos don't outweigh the Kotlin work.
       # Burnt orange, darker on light for contrast. Colours match GitHub's own light and dark themes.
@@ -21,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - uses: stats-organization/github-readme-stats-action@v2
+      - uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
           options: username=logickoder&show_icons=true&disable_animations=true&${{ env.DARK }}
@@ -29,7 +30,7 @@ jobs:
           token: ${{ secrets.STATS_TOKEN }}
           fail_on_error: true
 
-      - uses: stats-organization/github-readme-stats-action@v2
+      - uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
           options: username=logickoder&show_icons=true&disable_animations=true&${{ env.LIGHT }}
@@ -37,7 +38,7 @@ jobs:
           token: ${{ secrets.STATS_TOKEN }}
           fail_on_error: true
 
-      - uses: stats-organization/github-readme-stats-action@v2
+      - uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: top-langs
           options: username=logickoder&layout=compact&langs_count=6&card_width=395&size_weight=0&count_weight=1&disable_animations=true&${{ env.DARK }}
@@ -45,7 +46,7 @@ jobs:
           token: ${{ secrets.STATS_TOKEN }}
           fail_on_error: true
 
-      - uses: stats-organization/github-readme-stats-action@v2
+      - uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: top-langs
           options: username=logickoder&layout=compact&langs_count=6&card_width=395&size_weight=0&count_weight=1&disable_animations=true&${{ env.LIGHT }}
