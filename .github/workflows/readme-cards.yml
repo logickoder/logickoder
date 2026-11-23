@@ -1,0 +1,60 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    env:
+      # Burnt orange, darker on light for contrast. Colours match GitHub's own light and dark themes.
+      DARK: title_color=D2691E&icon_color=D2691E&text_color=f0f6fc&bg_color=0d1117&border_color=3d444d
+      LIGHT: title_color=A0501A&icon_color=A0501A&text_color=1f2328&bg_color=ffffff&border_color=d1d9e0
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=logickoder&show_icons=true&${{ env.DARK }}
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=logickoder&show_icons=true&${{ env.LIGHT }}
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=logickoder&layout=compact&langs_count=6&${{ env.DARK }}
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=logickoder&layout=compact&langs_count=6&${{ env.LIGHT }}
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # fail_on_error keeps the last good cards when GitHub's API rate-limits, instead of committing an error card.
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: update README cards" || exit 0
+          git push
