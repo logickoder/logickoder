@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Jeffery Orazulike&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 77, Total Commits  (last year) : 812, Total PRs: 294, Total Issues: 13, Contributed to (last year): 16</desc>
+        <desc id="descId">Total Stars Earned: 77, Total Commits  (last year) : 3300, Total PRs: 519, Total Issues: 660, Contributed to (last year): 35</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 55.61839270067;
+        stroke-dashoffset: 35.588342742474836;
       }
     }
   
@@ -99,7 +99,7 @@
         }
       }
     
-          
+          * { animation-duration: 0s !important; animation-delay: 0s !important; }
         </style>
 
         
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >812</text>
+      >3.3k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >294</text>
+      >519</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -214,7 +214,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >13</text>
+      >660</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >16</text>
+      >35</text>
     </g>
   </g>
     </svg>
