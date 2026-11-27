@@ -3,7 +3,7 @@
 **Software & AI Engineer** · Lagos, Nigeria · open to new projects<br>
 Six years of mobile. Now agents and circuits.
 
-I build infrastructure people don't notice until it breaks: SDKs, caching libraries, kiosk launchers, CI pipelines. Senior Android at Grimaldi Group, consultant for Product Studio (VFD Group), final-year Computer Engineering at UNILAG.
+I build infrastructure people don't notice until it breaks: SDKs, caching libraries, kiosk launchers, CI pipelines. Senior Android at Grimaldi Group, final-year Computer Engineering at UNILAG.
 
 [logickoder.dev](https://logickoder.dev) · [Writing](https://logickoder.substack.com) · [LinkedIn](https://linkedin.com/in/logickoder) · [Email](mailto:jeffery@logickoder.dev) · [CV](https://docs.google.com/document/d/1jq7_9BmibW87fxOcJ0LNeBGIIFQANfpYYgo5apffSN0/view)
 
