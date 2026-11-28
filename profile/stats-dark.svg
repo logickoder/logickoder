@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Jeffery Orazulike&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 77, Total Commits  (last year) : 3304, Total PRs: 521, Total Issues: 660, Contributed to (last year): 35</desc>
+        <desc id="descId">Total Stars Earned: 77, Total Commits  (last year) : 3306, Total PRs: 521, Total Issues: 660, Contributed to (last year): 34</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 35.58700430859341;
+        stroke-dashoffset: 35.58697996481024;
       }
     }
   
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >35</text>
+      >34</text>
     </g>
   </g>
     </svg>
